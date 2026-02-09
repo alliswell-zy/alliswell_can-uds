@@ -1,0 +1,30 @@
+UDS_Tool/
+├── main.py                          # 主程序入口
+├── requirements.txt                 # 依赖包
+├── config/
+│   ├── __init__.py
+│   ├── config_manager.py            # 配置管理
+│   └── protocol_definitions.py      # 协议定义
+├── core/                            # 核心模块
+│   ├── __init__.py
+│   ├── can_interface.py
+│   ├── uds_session_manager.py
+│   ├── isotp_protocol.py
+│   ├── command_project_manager.py
+│   └── monitor_manager.py
+├── ui/                              # 界面模块
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── can_setting_dialog.py
+│   ├── uds_session_widget.py
+│   ├── command_project_widget.py
+│   ├── monitor_widget.py
+│   └── styles.py
+├── utils/                           # 工具模块
+│   ├── __init__.py
+│   ├── constants.py
+│   ├── helpers.py
+│   └── validators.py
+└── icons/                           # 图标资源
+    ├── app_icon.png
+    └── ...（其他图标）
